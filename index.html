@@ -2,42 +2,41 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
+<link rel="stylesheet" href="main.css">
 <title>Michelynne's Project</title>	
-<style>
-	*{box-sizing: border-box}
-	#container{width:800px; background-color: lavender; height:600px; margin:0 auto;}
-	
-	p{
-		color:rosybrown;
-	}
-	.floatRight{
-		float:left;
-		width:150px;
-		background-color:lightcyan;
-	}
-	footer{
-		clear:both
-	}
-	#main{
-		margin-left: 20px;
-		background-color:antiquewhite;
-		padding-left: 20px;
-	}
-	</style>
-	
 </head>
 
 <body>
 	<div id="container" >
-	<header><h1 style="font-size:33px; color:black">Michelynne's Photography Portfolio</h1>
-		</header>
-	<nav class="floatRight"><p>This is my navigation</p></nav>
-	<main id="main" class="floatRight"><img src="Photo1.jpg" style="width:300px" alt="River"/></main>
+	<header><h1>Michelynne's Photography Portfolio</h1></header>
+<ul>
+	<li><a href="index.html" class="active">Home</a></li>
+	<li><a href="contact.html" class="active">Contact</a></li>
+	<li><a href="#about" class="active">About</a></li>
+	<li><a href="#photolibrary" class="active">Photo Library</a></li>
+	
+		</ul>
+		<div class="clearfix">
+  <div class="img-container">
+  <img src="Photos/photo2.JPG" alt="windmill" width="200" height="158">
+  </div>
+  <div class="img-container">
+  <img src="Photos/photo3.JPG" alt="epcot" width="200" height="158">
+  </div>
+  <div class="img-container">
+  <img src="Photos/photo5.JPG" alt="alexandera" width="200" height="158">
+  </div>
+</div>
+	<section>
+		<article class="left"><h1>How I got into photography</h1>
+		<p>I found an interest in photography when I joined yearbook my junior year of high school.</p></article>
+		<article class="right"><h1>Pretty Box</h1>
+		<p></p>
+		</article> 
+		<article class="left"><em>Lets capture those important moments!</em>
+		<button class="button"><a href="contact.html" target="_blank">Contact</a></button></article>
+	</section>
 	<footer><p>Copyright Michelynne Lopez 2024 &#169 </p></footer>
-	
-	
-	
 	</div>
 		
 	

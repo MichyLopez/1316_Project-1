@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.topnav a{
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav a:hover {
+	background-color: white;
+	color: black;
+}
+
+.active{
+	background-color: rgba(143,95,255,0.40);}
+.header{
+	background-color: aquamarine;
+	text-align: center;
+	padding: 20px;
+}
